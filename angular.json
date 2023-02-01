@@ -24,7 +24,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/leaflet/dist/leaflet.css"
             ],
             "scripts": []
           },
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "leaflet-poc"
+    }
+  },
+  "defaultProject": "leaflet-poc",
+  "cli": {
+    "analytics": "48fcc8c2-00d7-4168-a43d-c6b8d5b1c39e"
+  }
 }
